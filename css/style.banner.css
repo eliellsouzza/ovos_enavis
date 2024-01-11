@@ -44,59 +44,76 @@ color: white;
       background-color: #4CAF50;
     }
 
-    #farm img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    .container1 {
-      max-width: 600px; /* ou ajuste conforme necessário */
-      margin: 0 auto;
-    }
-
-    #produtos img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 15px;
-    }
-
-    .saiba-mais-btn {
-      display: block;
-      width: 100%;
-      max-width: 200px; /* ou ajuste conforme necessário */
-      margin: 0 auto;
-      padding: 10px;
-      text-align: center;
-      background-color: #4CAF50;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-
-    /* Mídia query para ajustar a imagem farm.png em resoluções maiores */
-    @media screen and (min-width: 768px) {
-        #farm  {
-          display: flex;
-  justify-content: center;
-  align-items: center;
-        }
-        #farm img {
-        max-width: 50%; /* ou ajuste conforme necessário */
- 
-    }
-
-
-
-
-    }
-
-    /* Mídia query para ajustar os cards em modo mobile */
-    @media screen and (max-width: 767px) {
+    #sobre, #produtos {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+  
+      #farm img {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      .container1 {
+        max-width: 600px; /* ou ajuste conforme necessário */
+        margin: 0 auto;
+      }
+  
       #produtos img {
-        max-width: 100%; /* Ocupar a largura total do contêiner */
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+      }
+  
+      .saiba-mais-btn {
+        display: block;
+        width: 100%;
+        max-width: 200px; /* ou ajuste conforme necessário */
+        margin: 0 auto;
+        padding: 10px;
+        text-align: center;
+        background-color: #4CAF50;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+  
+      /* Mídia query para ajustar a imagem farm.png em resoluções maiores */
+      @media screen and (min-width: 768px) {
+        #farm img {
+          max-width: 50%; /* ou ajuste conforme necessário */
+        }
+  
+        /* Exibir as imagens originais no modo normal */
+        #produtos img {
+          display: block !important;
+        }
+  
+        /* Ocultar a nova imagem específica para modo mobile no modo normal */
+        #produtos-mobile-img {
+          display: none !important;
+        }
+      }
+  
+      /* Mídia query para ajustar os cards em modo mobile */
+      @media screen and (max-width: 767px) {
+        #produtos img {
+          display: none; /* Oculta as imagens em modo mobile */
+        }
+  
+        .saiba-mais-btn {
+          max-width: 50%; /* Ocupar a largura total do contêiner */
+        
+        }
+  
+        /* Exibir a nova imagem específica para modo mobile no modo mobile */
+        #produtos-mobile-img img {
+          display: block ;
+          max-width: 100%;
+          height: auto;
+          margin-bottom: 15px;
+        }
       }
 
-      .saiba-mais-btn {
-        max-width: 100%; /* Ocupar a largura total do contêiner */
-      }
-    }
+      
