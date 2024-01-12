@@ -1,1 +1,156 @@
-<h1>contato</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- STYLE FOOTER -->
+    <link rel="stylesheet" href="../css/style.footer.css" />
+    <!-- STYLE HEADER -->
+    <link rel="stylesheet" href="../css/style.header.css" />
+    <!-- STYLE GERAL -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- style banner -->
+    <link rel="stylesheet" href="../css/style.banner.css">
+
+
+    <link rel="stylesheet" href="../css/contato.css">
+    <!-- ICONES-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="icon" href="../assets/imagens/enavis-logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a6e730c4a2.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js" defer></script>
+    <!-- slide -->
+    <script src="../js/slide.js" defer></script>
+
+    <title>Ovos Enavis</title>
+</head>
+
+<body>
+
+    <!-- ICONE WHATS-->
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=81998658879&amp;text=ol%C3%A1" id="botao-whatsapp"
+        style="position: fixed; bottom: 10px; width: 57px; z-index: 999; right: 32px;"><img style="width:100%;"
+            src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0VERURFRDsiIGQ9Ik0wLDUxMmwzNS4zMS0xMjhDMTIuMzU5LDM0NC4yNzYsMCwzMDAuMTM4LDAsMjU0LjIzNEMwLDExNC43NTksMTE0Ljc1OSwwLDI1NS4xMTcsMCAgUzUxMiwxMTQuNzU5LDUxMiwyNTQuMjM0UzM5NS40NzYsNTEyLDI1NS4xMTcsNTEyYy00NC4xMzgsMC04Ni41MS0xNC4xMjQtMTI0LjQ2OS0zNS4zMUwwLDUxMnoiLz4KPHBhdGggc3R5bGU9ImZpbGw6IzU1Q0Q2QzsiIGQ9Ik0xMzcuNzEsNDMwLjc4Nmw3Ljk0NSw0LjQxNGMzMi42NjIsMjAuMzAzLDcwLjYyMSwzMi42NjIsMTEwLjM0NSwzMi42NjIgIGMxMTUuNjQxLDAsMjExLjg2Mi05Ni4yMjEsMjExLjg2Mi0yMTMuNjI4UzM3MS42NDEsNDQuMTM4LDI1NS4xMTcsNDQuMTM4UzQ0LjEzOCwxMzcuNzEsNDQuMTM4LDI1NC4yMzQgIGMwLDQwLjYwNywxMS40NzYsODAuMzMxLDMyLjY2MiwxMTMuODc2bDUuMjk3LDcuOTQ1bC0yMC4zMDMsNzQuMTUyTDEzNy43MSw0MzAuNzg2eiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojRkVGRUZFOyIgZD0iTTE4Ny4xNDUsMTM1Ljk0NWwtMTYuNzcyLTAuODgzYy01LjI5NywwLTEwLjU5MywxLjc2Ni0xNC4xMjQsNS4yOTcgIGMtNy45NDUsNy4wNjItMjEuMTg2LDIwLjMwMy0yNC43MTcsMzcuOTU5Yy02LjE3OSwyNi40ODMsMy41MzEsNTguMjYyLDI2LjQ4Myw5MC4wNDFzNjcuMDksODIuOTc5LDE0NC43NzIsMTA1LjA0OCAgYzI0LjcxNyw3LjA2Miw0NC4xMzgsMi42NDgsNjAuMDI4LTcuMDYyYzEyLjM1OS03Ljk0NSwyMC4zMDMtMjAuMzAzLDIyLjk1Mi0zMy41NDVsMi42NDgtMTIuMzU5ICBjMC44ODMtMy41MzEtMC44ODMtNy45NDUtNC40MTQtOS43MWwtNTUuNjE0LTI1LjZjLTMuNTMxLTEuNzY2LTcuOTQ1LTAuODgzLTEwLjU5MywyLjY0OGwtMjIuMDY5LDI4LjI0OCAgYy0xLjc2NiwxLjc2Ni00LjQxNCwyLjY0OC03LjA2MiwxLjc2NmMtMTUuMDA3LTUuMjk3LTY1LjMyNC0yNi40ODMtOTIuNjktNzkuNDQ4Yy0wLjg4My0yLjY0OC0wLjg4My01LjI5NywwLjg4My03LjA2MiAgbDIxLjE4Ni0yMy44MzRjMS43NjYtMi42NDgsMi42NDgtNi4xNzksMS43NjYtOC44MjhsLTI1LjYtNTcuMzc5QzE5My4zMjQsMTM4LjU5MywxOTAuNjc2LDEzNS45NDUsMTg3LjE0NSwxMzUuOTQ1Ii8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="></a>
+
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="nav">
+            <a href="/" class="logo"><img class="logo-banner" src="../assets/enavis-logo-white.png"
+                    alt="logo enavis"></a>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../pages/sobre.html">Sobre</a></li>
+                <li><a href="../pages/produtos.html">Produtos</a></li>
+                <li><a href="../pages/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sobre">
+        <div id="farm">
+            <img src="../assets/icon-duvida.png" alt="qual sua divida" width="200">
+        </div>
+        <div class="container1">
+            <p>Tem alguma dúvida? Dica de melhoria? Pedimos gentilmente que deixe-nos sua mensagem que entraremos em
+                contato o quanto antes!
+            </p>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div id="produtos-container">
+            <p>Ah! E não se esqueça de visitar nosso Instagram para ficar por dentro de todas as nossas atualizações,
+                assim como de várias receitas e curiosidades postadas semanalmente!</p>
+
+            <img src="../assets/siga-instagram.png" alt="siga nosso instagram">
+
+
+            <div class="instagram">
+
+
+
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/ovosenavis/"
+                    data-instgrm-version="13"></blockquote>
+
+            </div>
+
+
+            <!-- Nova imagem específica para modo mobile -->
+            <div id="produtos-mobile-img">
+                <img src="../assets/siga-instagram.png" alt="siga nosso instagram">
+            </div>
+
+        </div>
+
+        <section id="sobre">
+
+            <div class="container1">
+                <p><i class="fa-solid fa-location-dot"></i> Granja Nova Esperança, Zona Rural Orobó/PE - CEP:55740-000
+                </p>
+                <p><i class="fa-solid fa-location-dot"></i> Loja Ceasa Galpão LA, lojas 20 e 21, Curado, Recife/PE -
+                    CEP: 50790-000
+                </p>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="main_footer container">
+        <div class="custom-shape-divider-bottom-1683068753">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="content">
+            <div class="colfooter">
+                <h4 class="titleFooter">Redes Sociais</h4>
+
+                <a href="#" class="botao"><span> <i class="fa-brands fa-facebook"></i> </span></a>
+                <a href="https://www.instagram.com/ovosenavis/" class="botao"><span> <i class="fa-brands fa-instagram"></i> </span></a>
+                <a href="#" class="botao"><span> <i class="fa-brands fa-x-twitter"></i> </span></a>
+                <a href="https://www.linkedin.com/company/ovos-enavis/" class="botao"><span> <i class="fa-brands fa-linkedin"></i> </span></a>
+            </div>
+
+            <div class="colfooter">
+                <h4 class="titleFooter">Menu</h4>
+
+                <ul>
+                    <li><a href="#" title="Página Inícial">Página Inícial</a></li>
+                    <li><a href="#" title="Sobre a Empresa">Sobre a Empresa</a></li>
+                    <li><a href="#" title="Galeria de Fotos">Produtos</a></li>
+                    <li><a href="#" title="Fale Conosco">Fale Conosco</a></li>
+                </ul>
+            </div>
+
+            <div class="colfooter">
+                <h4 class="titleFooter">Contato</h4>
+                <p><i class="fa-solid fa-globe"></i> enavis.com.br</p>
+                <p><i class="fa-solid fa-envelope"></i> qualidade@enavis.com.br</p>
+                <p><i class="fa-brands fa-whatsapp"></i> (81) 9.9966-6111</p>
+                <p><i class="fa-solid fa-phone"></i> (81) 3649.xxxx</p>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+        <div class="main_footer_copy">
+            <p class="m-b-footer">Enavis - 2024, todos os direitos reservados.</p>
+            <p class="by">
+                <i class="icon icon-heart-3"></i> Desenvolvido por:
+                <a href="#" title="Grupo Souza"> </a>
+            </p>
+            <img class="img-footer" src="/assets/grupo-souza-branco.png" alt="logo" />
+        </div>
+    </footer>
+
+    <script async src="//www.instagram.com/embed.js" defer></script>
+
+</body>
+
+</html>

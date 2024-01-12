@@ -1,0 +1,13 @@
+#produtos-container{
+ 
+border-radius: 10px;
+}
+
+ .instagram{
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 25px;
+ 
+}
+ 
