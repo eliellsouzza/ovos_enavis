@@ -20,13 +20,50 @@ body {
     align-items: center;
     padding: 20px;
 }
+.card{
+background-image: url(../assets/sobre/missao.png);
+background-repeat: no-repeat;
+}
+
+
+
+/* Estilo para o card de parceiros */
+.partners-card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para o título */
+  .partners-card h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Estilo para as logos */
+  .partners-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .partners-logos img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px;
+  }
+  
 
 .section-red {
-    background-color: #ff6666;
-    padding: 20px;
+    background-color: #ffffff;
     margin-bottom: 20px;
     width: 100%;
     box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
 }
 
 .section-green {
@@ -51,11 +88,9 @@ body {
     .section-green img {
         width: 100%; /* Defina o estilo apropriado para a imagem em telas menores */
     }
+    .section-red img {
+        width: 100%; /* Defina o estilo apropriado para a imagem em telas menores */
+    }
 }
 
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
+ 
